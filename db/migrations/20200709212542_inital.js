@@ -1,6 +1,5 @@
 exports.up = function (knex) {
   //The return keyword is necessary because your migration functions must return a promise in order to work correctly.
-
   return knex.schema
     .createTable("papers", function (table) {
       table.increments("id").primary();

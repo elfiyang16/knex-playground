@@ -5,8 +5,9 @@ const createPaper = async (knex, paper) => {
     {
       title: paper.title,
       author: paper.author,
+      publisher: paper.publisher,
     },
-    "id"
+    "id" //return id
   );
 
   let footnotePromises = paper.footnotes.map((footnote) => {
