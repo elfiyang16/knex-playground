@@ -2,7 +2,7 @@
 
 - migration
 - seed
-- api request
+- query 
 
 ## Setup
 
